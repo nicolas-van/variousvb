@@ -1,0 +1,8 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\Folder\shell\Command]
+@="&Ouvrir dans la console"
+
+[HKEY_CLASSES_ROOT\Folder\shell\Command\Command]
+@="cmd /K cd /d \"%1\""
+
